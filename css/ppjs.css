@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+}
+ul,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+div {
+  display: block;
+ 
+}
+ul{
+    list-style: none;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+  }
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    height: 45px;
+  }
+  /*顶部导航*/
+  .fast_nav{
+      font-size: 13px;
+      background: #ffffff;
+  }
+  .fast_nav > .wrapper::after{
+      content: "";
+      display: block;
+      clear: both;
+  }
+  .fast_nav .logo {
+   
+    
+    float: left;
+    
+    width: 300px;
+    border-right :1px solid #ede7d8;
+     margin-left: 100px;
+    line-height: 1.8em;
+  }
+    
+  .nav >ul > li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 3.5em;
+    cursor: pointer;
+    color: #807b7e;
+    border-right :1px solid #ede7d8;
+  }
+  .fast_nav .nav >ul > li:hover {
+    color: white;
+    background: #af0d10;
+  }
+  /*内容*/
+  .memorabilia_main{
+    background: #fff1d7;
+  }
+  .men_con {
+    padding: 20px;
+    width: 830px;
+    background: #fff7e9 ;
+    overflow: hidden;
+    padding-bottom: 40px;
+    margin-left: 100px;
+}
+.men_con h2 {
+  font: 25px/40px 'Microsoft Yahei',STHeiti,"sans-serif";
+  color: #d21b17;
+  padding-bottom: 10px;
+}
+.date_years {
+  float: left;
+  padding-left: 17px;
+  text-align: right;
+  overflow: hidden;
+  width: 407px;
+}
+.date_years h3 {
+  font: 48px/50px 'Microsoft Yahei',STHeiti,"sans-serif";
+  color: #7d3d16;
+  padding-right: 24px;
+}
+.date_years p {
+  color: #7d3d16;
+  font: 12px/20px "宋体";
+  padding-right: 24px;
+}
+.date_years img {
+  margin-top: 5px;
+  padding-right: 24px;
+  height: 80px;
+}
+img {
+  vertical-align: top;
+}
+.date_right {
+  float: right;
+  padding-right: 17px;
+  text-align: left;
+  overflow: hidden;
+  width: 407px;
+  margin-top: -65px;
+}
+.back_to_top, .back_to_top2 {
+  top: auto;
+}
+ .back_to_top{
+  cursor: pointer;
+}
+.sidebar, .sidebar2 {
+  width: 136px;
+}
+/*底部开始*/
+.line {
+  height: 4px;
+  background: #af0d10;
+}
+
+.footer {
+  background: #1f1510;
+}
+.web_map {
+  width: 1500px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.web_map dl {
+  float: left;
+}
+.footer dt {
+  color: #fff;
+  font: bold 12px/24px "宋体";
+}
+.copy_right {
+  text-align: center;
+  color: #d2d0cf;
+  font: 12px/31px "宋体";
+  border-top: 1px solid #403834;
+}
+.web_map dl {
+  float: left;
+}
+.warp_middle{
+  font-size: 12px;
+}
+.footer dd {
+  margin-left: 0;
+  padding-left: 0;
+  color: #d2d0cf;
+  font: 12px/24px "宋体";
+  cursor: pointer;
+ }
+ 
