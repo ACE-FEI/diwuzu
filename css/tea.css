@@ -1,22 +1,35 @@
+/*重置样式*/
 html {
     text-align: center;
     font-size: 14px;
     color: #333333;
 }
-body {
+body{
     margin: 0;
     background: #fff1d7;
 }
-ul,h1,h2,h3 {
+ul,h1,h2,h3{
     margin: 0;
     padding: 0;
+}
+div {
+  display: block;
+ 
+}
+ul{
     list-style: none;
+}
+a {
+    color: #333333;
+    text-decoration: none;
   }
-  ul {
-    list-style: none;
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    height: 45px;
   }
 
-  /*快捷导航*/
+  /*顶部导航*/
   .fast_nav {
     font-size: 15px;
     background: #ffffff;
@@ -60,10 +73,6 @@ ul,h1,h2,h3 {
   }
   
   /*底部开始*/
-  div {
-      display: block;
-      text-align: center;
-  }
   .line {
     height: 2px;
     background: #af0d10;
@@ -92,3 +101,9 @@ ul,h1,h2,h3 {
    margin-left: 0;
    padding-left: 0;
 }
+.banquan {
+    text-align: center;
+    color: #d2d0cf;
+    font: 12px/31px "宋体";
+    border-top: 1px solid #403834;
+  }
