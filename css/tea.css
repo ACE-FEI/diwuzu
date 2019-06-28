@@ -1,0 +1,94 @@
+html {
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+body {
+    margin: 0;
+    background: #fff1d7;
+}
+ul,h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  ul {
+    list-style: none;
+  }
+
+  /*快捷导航*/
+  .fast_nav {
+    font-size: 15px;
+    background: #ffffff;
+  }
+  .fast_nav> .wrapper::after {
+    content:"";
+    display: block;
+    clear: both;
+  }
+  .fast_nav .nav >ul > li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 3em;
+    cursor: pointer;
+    border-right: 1px solid #ededed;
+  }
+  .fast_nav .nav >ul > li:hover {
+    color:white;
+    background-color: #af0d10;
+  }
+  .fast_nav .nav>ul>li:nth-child(1) {
+      color: #000;
+      line-height: 1em;
+      font-size: 20px;
+      font-weight:bold;
+      width: 300px;
+      background-color:white;
+    border-right: 1px solid #ededed;
+    padding-left: 120px;
+  }
+
+  /*内容开始*/
+  .xwc {
+      width: 80%;
+      color: #a73630;
+      font-weight: bold;
+      padding-top: 10px;
+    padding-bottom: 47px;
+    padding-left: 100px;
+  }
+  
+  /*底部开始*/
+  div {
+      display: block;
+      text-align: center;
+  }
+  .line {
+    height: 2px;
+    background: #af0d10;
+}
+  .footer {
+    background-color:  #1f1510;
+  }
+  .dibu {
+    width: 1800px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 160px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+.dibu dl {
+    float: left;
+}
+.footer dt {
+    color: #fff;
+    font: bold 12px/24px "宋体";
+}
+.footer dd {
+    color: #d2d0cf;
+    font: 12px/24px "宋体";
+   margin-left: 0;
+   padding-left: 0;
+}
