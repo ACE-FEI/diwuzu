@@ -36,8 +36,10 @@ fast_nav{
     width: 100px;
     font-size: 13px;
     line-height: 45px;
-    border-right :1px solid #ede7d8;
-     margin-left: 100px;
+    bormargin-left: 8px;
+    der-right :1px solid #ede7d8;
+    margin-left: 120px;
+    
     
   
 
@@ -58,3 +60,55 @@ font-size: 15px;
   color: white;
   background: #af0d10;
 }
+/* 内容 */
+
+
+
+
+
+
+
+
+/* 底部 */
+.line {
+  height: 4px;
+  background: #af0d10;
+}
+
+.footer {
+  background: #1f1510;
+}
+.web_map {
+  width: 1500px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.web_map dl {
+  float: left;
+}
+.footer dt {
+  color: #fff;
+  font: bold 12px/24px "宋体";
+}
+.copy_right {
+  text-align: center;
+  color: #d2d0cf;
+  font: 12px/31px "宋体";
+  border-top: 1px solid #403834;
+}
+.web_map dl {
+  float: left;
+}
+.warp_middle{
+  font-size: 12px;
+}
+.footer dd {
+  margin-left: 0;
+  padding-left: 0;
+  color: #d2d0cf;
+  font: 12px/24px "宋体";
+  cursor: pointer;
+ }
